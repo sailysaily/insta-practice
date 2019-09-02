@@ -9,3 +9,4 @@ class User < ApplicationRecord
   has_many :comment_likes, dependent: :destroy
   has_many :post_likes, dependent: :destroy
 end
+
